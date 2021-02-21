@@ -1,0 +1,30 @@
+.transaction {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #c8c3c3;
+    border-collapse: collapse;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.55);
+  }
+  
+  .transaction thead tr th {
+    width: 250px;
+    border: 1px solid #c8c3c3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#00bcd5;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .transaction tbody tr td {
+    width: 250px;
+    border-right: 1px solid #c8c3c3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #a9aeb4;
+  }
+  
+  .transaction tbody tr:nth-child(2n) {
+    background-color:#ecf1f4;
+  }
